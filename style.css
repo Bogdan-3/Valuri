@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+.material-symbols-outlined {
+    font-size: 7vw;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 
 body {
     background-image: url("./resources/valbg.jpg");
@@ -38,6 +48,10 @@ p {
     margin-left: 5px;
 }
 
+.hyperl {
+    color: seagreen;
+}
+
 
 .yt-embed {
     position: relative;
@@ -70,8 +84,8 @@ p {
     position: relative;
     float: right;
     margin: 5px;
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 50%;
     padding: 10px 10px;
 }
 
