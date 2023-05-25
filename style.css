@@ -29,7 +29,7 @@ ul {
 }
 
 li {
-    text-indent: 40px;
+    text-indent: 10px;
     font-size: 20px;
     margin-left: 5px;
     font-weight: normal;
@@ -86,7 +86,7 @@ p {
     margin: 5px;
     width: 50%;
     height: 50%;
-    padding: 10px 10px;
+    padding: 5px 10px;
 }
 
 
@@ -136,6 +136,7 @@ p {
     float:right;
     background: transparent;
     display: inline-block;
+    padding: 0px 10px 10px 10px; /* 10 sus 10 dreapta 10 jos 10 stanga*/
 }
 
 .spin-spider {
@@ -185,7 +186,7 @@ p {
 
         /* Style the active/current link*/
         .header a.active {
-            background-color: dodgerblue;
+            background-color: mediumpurple;
             color: white;
         }
 
@@ -224,7 +225,7 @@ p {
 }
 
     #myBtn:hover {
-        background-color: #000; /* Add a dark-grey background on hover */
+        background-color: #999; /* Add a dark-grey background on hover */
     }
 
 
