@@ -117,7 +117,7 @@ p {
     margin-left: 5px;
     margin-right: auto;
     padding: 10px;
-    width: auto;
+    width: 80%;
     height: auto;
 }
 
@@ -127,8 +127,41 @@ p {
     margin-left: auto;
     margin-right: 5px;
     padding: 10px;
-    width: auto;
+    width: 80%;
     height: auto;
+}
+
+.imagine3 { /* Acest tag este pentru imagini centered */
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10px 30px 10px;
+    width: 80%;
+    height: auto;
+}
+
+.imagine4 {
+    display: block;
+    position: relative;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 90%;
+    height: 10vw;
+}
+
+.creditlist {
+    background: #0e2433;
+    padding: 20px;
+}
+
+.creditlistitem {
+    background: #d0efff;
+    color: darkcyan;
+    padding: 5px;
+    margin-left: 35px;
 }
 
 .spider-container {
@@ -136,7 +169,7 @@ p {
     float:right;
     background: transparent;
     display: inline-block;
-    padding: 0px 10px 10px 10px; /* 10 sus 10 dreapta 10 jos 10 stanga*/
+    padding: 0px 15px 15px 15px; /* 10 sus 10 dreapta 10 jos 10 stanga*/
 }
 
 .spin-spider {
